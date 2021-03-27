@@ -1,0 +1,77 @@
+.container
+{
+    display: flex;
+    width: auto;
+    height: 100vh;
+    background: #39524A;
+    border: 2px solid white;
+}
+.sure > img
+{
+    display: flex;
+    width: 70vw;
+    height: 100vh;
+    opacity: 0.3;
+    margin:-32rem;
+    margin-top: .1rem;
+}
+.ama > img
+{
+    display: flex;
+    justify-content: left;
+    margin: 3rem;
+    margin-top: 12rem;
+    z-index: 1;
+}
+.details
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 9rem;
+    margin-left:3rem;
+    margin-top:12rem;
+    width: 30vw;
+    height: 50vh;
+    border: 2px solid rgb(238, 233, 233);
+    border-radius: 2rem;
+}
+.details > h2 
+{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.fields
+{ 
+    width: 30vw;
+    margin: -2rem;
+    margin-left: .5rem;
+}
+.fields > input
+{
+    border-radius:5rem;
+    padding:1rem;
+    border:none;
+    text-align: center;
+    font-size: large;
+}
+.but{
+    display: flex;
+    justify-content: center;
+    width: 20vw;
+    height: 10vh;
+    font-family: tinos;
+    font-size: bold;
+    margin-top: 43rem;
+    margin-left: -38rem;
+
+}
+.but > button
+{
+    background-color: #39524A;
+    color:white;
+    align-items: center;
+    font-size: 25px;
+    border: transparent;
+}

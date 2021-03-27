@@ -1,0 +1,58 @@
+.cure
+{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 4rem;
+}
+
+.write
+{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+
+}
+
+.firstDivInWrite
+{
+    border-bottom: 3px solid #ff0000;
+    padding-bottom: 2rem;
+}
+
+.firstDivInWrite > h2
+{
+    margin: 1rem;
+    margin-top: 8rem;
+    font-family: poppins;
+    font-size: 7rem;
+    line-height: 6rem;
+    color: #142C43;
+}
+
+.next
+{
+    margin-top: 1rem;
+    display:flex;
+    flex-direction: row;
+    justify-content: first baseline;
+}
+
+.next button
+{
+    background: transparent;
+    border: 2px solid #142C43;
+    color: #142C43;
+    font-weight: bold;
+    font-family: poppins;
+    margin: 1rem;
+    transition: .3s ease-in all
+}
+
+.next button:hover
+{
+    background: #142C43;
+    color: white;
+    font-weight: 400;
+}

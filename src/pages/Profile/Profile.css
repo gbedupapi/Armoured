@@ -1,0 +1,135 @@
+ .contain
+ {
+    display: flex;
+    font-family: poppins;
+    width: auto;
+    height: 100vh;
+    background: rgba(178, 188, 197, 0.33);
+    border: 2px solid rgb(197, 202, 198);
+ }
+ .sere > img
+ {
+    position: relative;
+    width: 70vw;
+    height: 100vh;
+    opacity: 0.3;
+    margin:.2px;
+    margin-left: 60rem;
+ }
+ .sided
+{
+        padding: 2rem;
+        width: 10vw;
+        top: 2rem;
+        margin-left: -143rem;
+        background-color: #39524A;
+        position:static;
+        height: 93.5vh;
+        overflow: auto;
+}
+.sided > img
+{
+    width: 6rem;
+    height: 8rem;
+    left: 82px;
+    margin: 2rem;
+}
+.name
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 12vw;
+    height: 5vh;
+    margin: -15rem;
+    margin-top: 13rem;
+    background-color: whitesmoke;
+    border: 1px solid rgb(68, 167, 68);
+    border-radius: 8px;
+    z-index: 1;
+    box-sizing: border-box;
+}
+.name > h2
+{
+    margin-left: 1rem;
+    margin-top: 23rem;
+}
+.name > a > h3
+{
+    color:rgb(255, 255, 255);
+    font-size: 25px;
+    text-align: center;
+}
+.name > a
+{
+    text-decoration: none;
+} 
+.profile > h1 
+{
+    display: flex;
+    width: 50vw;
+    margin-left: 20rem;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 6rem;
+}
+.pin
+{
+    display:flex;
+    width: 70vw;
+    height: 5vh;
+    margin-top: 12rem;
+    margin-left: -59rem;
+    background: #39524A;
+    border-radius: 41px;
+}
+.pin > ul 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    justify-content: space-evenly;
+    width:50rem;
+    font-size: 1.5rem;
+    margin-top: .5rem;
+    margin-left: -4rem;
+    color:white;
+}
+.sect
+{
+    display: flex;
+    margin-left: 25rem;
+    margin-top: -40rem;
+    background: #12976F;
+    border-radius: 50%;
+    font-family: poppins;
+    width: 250px;
+    height: 250px;
+}
+.sector
+{
+    display: flex;
+    margin-left: 50rem;
+    margin-top: -16rem;
+    background:  #15A2F1;
+    border-radius: 50%;
+    font-family: poppins;
+    width: 250px;
+    height: 250px;
+}
+.sect > p
+{
+    display: flex;
+    align-items: center;
+    margin-left: 3rem;
+    font-size: 2rem;
+
+}
+.sector > p
+{
+    display: flex;
+    align-items: center;
+    margin-left: 4rem;
+    font-size: 2rem;
+}

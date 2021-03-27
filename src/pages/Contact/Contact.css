@@ -1,0 +1,103 @@
+.board
+{
+    display: flex;
+    width: auto;
+    height: 100vh;
+    background: rgba(57, 82, 74, 0.44);
+    border: 2px solid rgb(4, 49, 8);
+}
+.board > img
+{
+    position: relative;
+    width: 70vw;
+    height: 100vh;
+    opacity: 0.3;
+    margin:.2px;
+    margin-left: 60rem;
+}
+.board > h1
+{
+    position:absolute;
+    width: 356px;
+    height: 73px;
+    margin:5rem;
+    left: 700px;
+    font-family: tinos;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 75px;
+    color: white;
+
+}
+.file
+{
+    display: grid;
+    width: 50vw;
+    height: 60vh;
+    margin: 5rem;
+    margin-left: -117rem;
+    margin-top: 12rem;
+    background: #ffffff;
+    border: 1px solid #274e15;
+    box-sizing: border-box;
+    box-shadow: 4px 12px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 3rem;
+}
+.file > h1
+{
+    display: flex;
+    font-family: tinos;
+    margin-left: 5.5rem;
+    text-decoration: underline;
+    color:rgb(20, 61, 20);
+}
+.info
+{
+    display: grid;
+    grid-template-columns: 25em 30em;
+    margin-top: -1rem;
+    margin-left: 4rem;
+    grid-gap: 1em;
+}
+.gen > input
+{
+    display: flex;
+    text-align: center;
+    width: 20vw;
+    height: 4vh;
+    margin-left: 1rem;
+    margin-right: 4rem;
+    font-family: tinos;
+    font-size: 1rem;
+    background: #FFFFFF;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+.net > input
+{
+    display: flex;
+    text-align: center;
+    width: 20vw;
+    height: 4vh;
+    font-size: 1rem;
+    font-family: tinos;
+    margin-left: 1rem;
+    background: #FFFFFF;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+.aba
+{
+    align-content: center;
+    margin-left:22rem;
+}
+.aba > button
+{
+    width:7vw;
+    background: #073a05;
+    border: 2px solid #073a05;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}

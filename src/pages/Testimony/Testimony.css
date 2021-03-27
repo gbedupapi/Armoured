@@ -1,0 +1,132 @@
+div
+{
+    align-content: center;
+}
+.test
+{
+    display: flex;
+    width: auto;
+    height: 100vh;
+    background: rgba(250, 250, 250, 0.44);
+    border: .5px solid whitesmoke;
+}
+.guy
+{
+    display:flex;
+    width: auto;
+    height: 100vh;
+    opacity: 0.3;
+    margin:.2px;
+    margin-left: 65rem;
+}
+.bill > h1
+{
+    position:absolute;
+    width: 35vw;
+    left: 50rem;
+    margin-top: 8rem;
+    font-family: tinos;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 75px;
+    color: rgb(12, 63, 12);
+}
+.bill > p
+{
+    position:absolute;
+    width: 35vw;
+    left: 43rem;
+    margin-top: 17rem;
+    font-family: Tinos;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    color: black;
+}
+.bill > h4
+{
+    position:absolute;
+    width: 35vw;
+    left: 43rem;
+    margin-top: 30rem;
+    font-family: Tinos;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    color: black;
+}
+.lyn1
+{
+    position: absolute;
+    height: 80vh;
+    left: 57rem;
+    margin-top:12rem;
+    border: 2px solid  rgb(7, 24, 7);
+    transform: rotate(90deg);
+}
+.lyn2
+{
+    position: absolute;
+    height: 1vh;
+    left: 42rem;
+    margin-top:30.8rem;
+    border: 2px solid #f80202;
+    transform: rotate(90deg);
+}
+.bills
+{
+    position:absolute;
+    width: 35vw;
+    left: 43rem;
+    margin-top: 40rem;
+    font-family: Tinos;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    color: black;
+}
+.lyn3
+{
+    position: absolute;
+    height: 1vh;
+    left: 42rem;
+    margin-top:56rem;
+    border: 2px solid #f30606;
+    transform: rotate(90deg); 
+}
+.box
+{
+    position: absolute;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 15vw;
+    height: 30vh;
+    margin: 5rem;
+    left: 12rem;
+    margin-top: 15rem;
+    background: none;
+    border: 4px solid #0c3803;
+    box-sizing: border-box;
+    box-shadow: 4px 12px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 3rem;
+}
+.boxes
+{
+    position: absolute;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 15vw;
+    height: 30vh;
+    margin: 5rem;
+    left: 12rem;
+    margin-top: 40rem;
+    background: none;
+    border: 4px solid #ed0505;
+    box-sizing: border-box;
+    box-shadow: 4px 12px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 3rem;
+}

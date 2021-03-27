@@ -1,0 +1,29 @@
+.body
+{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    top: 30rem;
+    background: #39524A;
+}
+.pix > img
+{
+    align-items: center;
+    width: 30rem;
+    margin: 10rem;
+    margin-left: 40rem;
+}
+.body > h2
+{
+    position: relative;
+    left: -38rem;
+    top: 40rem;
+    font-family: tinos;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: white;
+
+}
+
