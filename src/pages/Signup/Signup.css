@@ -1,38 +1,33 @@
 .container
 {
     display: flex;
+    align-items: center;
     width: auto;
-    height: 100vh;
+    height:100vh;
     background: #39524A;
-    border: 2px solid white;
+    border: 2px solid none;
 }
-.sure > img
+.sure
 {
     display: flex;
-    width: 70vw;
-    height: 100vh;
-    opacity: 0.3;
-    margin:-32rem;
-    margin-top: .1rem;
+    justify-content: space-between;
+    margin-left: 15rem;
+
 }
-.ama > img
+.ama 
 {
     display: flex;
-    justify-content: left;
-    margin: 3rem;
+    width: 700px;
+    height: 400px;
     margin-top: 12rem;
-    z-index: 1;
 }
 .details
 {
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    margin: 9rem;
-    margin-left:3rem;
     margin-top:12rem;
-    width: 30vw;
-    height: 50vh;
+    width: auto;
+    height: auto;
     border: 2px solid rgb(238, 233, 233);
     border-radius: 2rem;
 }
@@ -41,37 +36,44 @@
     display: flex;
     justify-content: center;
     color: white;
+    font-family: Montserrat;
+    font-weight: bold;
 }
 .fields
 { 
-    width: 30vw;
+    width: 25vw;
     margin: -2rem;
-    margin-left: .5rem;
+    font-family: poppins;
 }
 .fields > input
 {
     border-radius:5rem;
-    padding:1rem;
     border:none;
     text-align: center;
-    font-size: large;
 }
 .but{
     display: flex;
     justify-content: center;
     width: 20vw;
     height: 10vh;
-    font-family: tinos;
-    font-size: bold;
-    margin-top: 43rem;
-    margin-left: -38rem;
+    font-family: Montserrat;
+    margin-top: 48rem;
+    margin-left: -26rem;
 
 }
 .but > button
 {
-    background-color: #39524A;
+    background-color: transparent;
     color:white;
     align-items: center;
     font-size: 25px;
+    font-weight: 400px;
     border: transparent;
+    letter-spacing: 1px;
+    transition: .3s ease-in all;
+}
+.but > button :hover
+{
+    background: #f70202;
+    color: white;
 }

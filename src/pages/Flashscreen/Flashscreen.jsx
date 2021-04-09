@@ -1,6 +1,6 @@
 import React from 'react'
 import './Flashscreen.css'
-import Image from '../../Access/Image/lop 1.png';
+import Image from '../../Access/Image/logo1.png';
 
 export default function Flashscreen() {
     return (

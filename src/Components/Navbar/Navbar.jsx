@@ -1,8 +1,7 @@
 import React from 'react'
-import Logo from '../../Access/Image/lop 3.png';
+import Logo from '../../Access/Image/logo.png';
 
 import './Navbar.css'
-
 const Navbar = () => {
     return (
         <div>
@@ -27,7 +26,11 @@ const Navbar = () => {
                         </div>
                     </div>
                 </div>
+                    <button className = "bold">
+                        Log Out
+                    </button>
             </div>
+                
         </div>
     )
 }

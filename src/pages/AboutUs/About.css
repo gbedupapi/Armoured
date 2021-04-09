@@ -1,32 +1,32 @@
 .cover
 {
         display: flex;
+        justify-content: space-evenly;
+        align-items: center;
         width: auto;
         height: 100vh;
-        background: rgba(40, 102, 56, 0.33);
-        border: 2px solid rgb(4, 49, 8);
+        background: rgb(0, 0, 0);
+        border: 2px solid none;
 }
 .back > img
 {
     display: flex;
-    justify-content: left;
     width:25vw;
     height: 50vh;
-    margin: 8rem;
-    margin-top: 17rem;
+
 }
 .About
 {
     width: 356px;
-    height: 73px;
-    margin:10rem;
-    left: 700px;
+    height: 72px;
+    padding: 0rem 20rem 0rem 0rem;
+    margin-top: -15rem;
     font-family: tinos;
     font-style: normal;
     font-weight: bold;
-    font-size: 64px;
-    line-height: 75px;
-    color: rgb(4, 11, 29);
+    font-size: 50px;
+    line-height: 2px;
+    color: rgb(251, 252, 253);
 }
 .About > p
 {
@@ -38,5 +38,5 @@
     font-weight: normal;
     font-size: 40px;
     line-height: 40px;
-    color: black;
+    color: rgb(255, 255, 255);
 }

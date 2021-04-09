@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.css'
-import Logo from '../../Access/Image/lop 3.png'
+import Logo from '../../Access/Image/logo1.png'
 import Navbar from '../../Components/Navbar/Navbar'
 
 export default function AboutUs() {

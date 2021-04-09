@@ -1,49 +1,61 @@
 .cure
 {
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: flex-end;
-    align-items: center;
-    margin: 4rem;
+    flex-direction: column;
+    justify-content: center;
+    width:auto;
+    height: 90vh;
+    background: rgb(0, 0, 0);
 }
 
 .write
 {
     display: flex;
-    flex-direction: column;
-    padding: 1rem;
+    flex-direction: row;
+    margin: 12rem 10rem 0;
+    justify-content: center;
+    align-items: center;
 
 }
 
 .firstDivInWrite
 {
-    border-bottom: 3px solid #ff0000;
-    padding-bottom: 2rem;
+    border-bottom: 2px solid #f70606;
 }
 
 .firstDivInWrite > h2
-{
-    margin: 1rem;
-    margin-top: 8rem;
+{   
+    display: flex;
     font-family: poppins;
-    font-size: 7rem;
-    line-height: 6rem;
-    color: #142C43;
+    font-size: 4rem;
+    line-height: 5rem;
+    color: #16f2ee;
+    letter-spacing: 2px;
+    padding: .5rem;
+}
+#seck
+{
+    color:white;
+    font-family:poppins;
+    font-size:larger;
+}
+.next-up
+{
+    display: flex;
+    margin-left: 9rem;
 }
 
 .next
 {
-    margin-top: 1rem;
-    display:flex;
+    display: flex;
     flex-direction: row;
-    justify-content: first baseline;
 }
 
 .next button
 {
     background: transparent;
-    border: 2px solid #142C43;
-    color: #142C43;
+    border: 2px solid #ffffff;
+    color: #31bfb8;
     font-weight: bold;
     font-family: poppins;
     margin: 1rem;
@@ -52,7 +64,40 @@
 
 .next button:hover
 {
-    background: #142C43;
+    background: #236616;
     color: white;
     font-weight: 400;
+}
+.covered
+{
+    display: flex;
+    margin-left: 1rem;
+   
+}
+.covers
+{
+    display: flex;
+    width: 14vw;
+    height: 27vh;
+    margin-top: 6rem;
+    border: 2px solid none;
+    box-sizing: border-box;
+    box-shadow: 4px 4px rgba(1, 252, 252, 0.25);
+    border-radius: 3rem;
+    background: url('../../Access/Image/security mann.png');
+    background-repeat: no-repeat;
+}
+.covers1
+{
+    display: flex;
+    width: 20vw;
+    height: 23vh;
+    margin: .3rem;
+    border: 2px solid #ffffff;
+    box-sizing: border-box;
+    box-shadow: 4px 4px rgba(1, 252, 252, 0.25);
+    border-radius: 3rem;
+    background: url('../../Access/Image/security guy 1.png');
+    background-repeat: no-repeat;
+    background-size: contain;
 }

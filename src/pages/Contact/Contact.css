@@ -2,13 +2,12 @@
 {
     display: flex;
     width: auto;
-    height: 100vh;
     background: rgba(57, 82, 74, 0.44);
     border: 2px solid rgb(4, 49, 8);
+    margin-top: 11rem;
 }
 .board > img
 {
-    position: relative;
     width: 70vw;
     height: 100vh;
     opacity: 0.3;
@@ -17,7 +16,7 @@
 }
 .board > h1
 {
-    position:absolute;
+    display: flex;
     width: 356px;
     height: 73px;
     margin:5rem;

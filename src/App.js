@@ -5,24 +5,25 @@ import SignUp from './pages/Signup/Signup';
 import Login from './pages/Login/Login';
 import Profile from './pages/Profile/Profile';
 import Contact from './pages/Contact/Contact';
-import AboutUs from './pages/AboutUs/AboutUs'
+import AboutUs from './pages/AboutUs/AboutUs';
 import { BrowserRouter, Route } from 'react-router-dom'
 
 import './index.css'
 //   function App() {
-//  return (
-// //     <div className="App">
-// //      <Navbar/>
-// //      <Flashscreen/> 
-// //      <Signup/> 
-// //       <Login/> 
-// //      <Profile/> 
-// //      <Contact/>
-// //      <Testimony/>
-//         <AboutUs/>
-// //     </div>
-// //   );
-// // }
+//   return (
+//      <div className="App">
+// {/* // //      <Navbar/>
+// // //      <Flashscreen/> 
+// // //      <Signup/> 
+// // //       <Login/> 
+// // //      <Profile/> 
+// // //      <Contact/>
+// // //      <Testimony/>
+// //         <AboutUs/> */}
+//           <Service/>
+//    </div>
+//     );
+//  }
 
 function App() {
   return(

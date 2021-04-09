@@ -1,26 +1,36 @@
 import React from 'react';
-import Security from '../../Access/Image/security guy 1.png';
 import './Home.css'
 import Testimony from '../Testimony/Testimony';
-import Navbar from '../../Components/Navbar/Navbar'
+import Navbar from '../../Components/Navbar/Navbar';
+import Service from '../Service/Service'
 
 const Home = () => {
     return (
         <div>
             <Navbar />
             <div className="cure">
-                <img src={Security} alt="man-with-glass"/>
                 <div className="write">
                     <div className="firstDivInWrite">
-                        <h2>Security is not a product it is a process.</h2>
+                        <h2>Security is not a product, It is a call to serve.</h2>
+                        <p id = "seck">
+                        Security is freedom from, or resilience against, potential harm caused by others. Beneficiaries of security may be of persons and social groups, objects and institutions, ecosystems or any other entity or phenomenon vulnerable to unwanted change.
+                        </p>
                     </div>
-
-                    <div className="next">
-                    <a href="signup"><button>SIGN UP</button></a>
-                    <a href="contact"><button>CONTACT US</button></a>
+                    <div className="covered">
+                        <div className="covers">
+                        </div>
+                        <div className="covers1">
+                        </div>
                     </div>
                 </div>
+                <div className="next-up">
+                    <div className="next">
+                    <a href="signup"><button>JOIN US</button></a>
+                    <a href="contact"><button>CONTACT US</button></a>
+                    </div>
+                    </div>
             </div>
+            <Service/>
             <Testimony/>
         </div>
     )
